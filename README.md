@@ -21,7 +21,7 @@ This means that lazyCPU is a **full simulation of a CPU that has been given infi
 Below is a full reference of the commands available:
 | Opcode | Operand  | Usage | Example |
 | ------ | -------- | ----- | ------- |
-SET | yes | place a value into the CPU register | SET AB |
+SET | yes | place the operand into the CPU register | SET AB |
 PNT | no | print the value inside the CPU register | PNT |
 ADD | yes | add the operand to the CPU register | ADD 07 |
 SUB | yes | subtract the operand from the CPU register | SUB 05 |
@@ -29,7 +29,7 @@ MUL | yes | multiply the CPU register by the operand | MUL 08 |
 DIV | yes | divide the CPU register by the operand | DIV 02 |
 HLT | no | halt the program | HLT |
 
-Please note **not all commands are available in this current release build yet**, only `SET PNT ADD HLT` are available.
+Please note **not all commands are available in this current release build yet**, only `SET PNT ADD HLT` are available. In the future, the full table of commands will be present, alongside more such as **branch instructions**.
 
 
-*provided the machine running the program also has enough memory.
+*provided the machine running the program also has enough memory
