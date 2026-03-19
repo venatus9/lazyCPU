@@ -17,7 +17,7 @@ Then just run the binary:
 When running, lazyCPU has two distinct stages: A **writing phase** and an **execution phase**. When in the writing phase, line numbers are prompted from the user, each line is a single opcode followed by a command-dependant operand. The program will continue to ask for code until the opcode `HLT` is given. At this point, lazyCPU prints the contents of memory the user has written, and then shifts into the execution phase. The execution phase interprets the code line by line and performs the operation listed.
 This means that lazyCPU is a **full simulation of a CPU that has been given infinite memory***.
 
-### Refrence
+### Reference
 Below is a full reference of the commands available:
 | Opcode | Operand  | Usage | Example |
 | ------ | -------- | ----- | ------- |
