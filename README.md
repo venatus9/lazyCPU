@@ -2,7 +2,7 @@
 A **wozmon**-inspired **memory monitor** and **assembly interpreter** with **theoretically infinite memory***, built in haskell.
 
 ## About
-LazyCPU is a haskell-based program that leverages the language's **lazy evaluation** to create an infinite space of memory which can be written to and read from. LazyCPU leverages this to write and execute theoretically infinite* programs.
+LazyCPU is a haskell-based program that leverages the language's **lazy evaluation** to create an infinite space of memory which can be written to and read from. LazyCPU makes extensive use of this to write and execute theoretically infinite programs*.
 
 ## Usage
 Compile the source code using ghc:
